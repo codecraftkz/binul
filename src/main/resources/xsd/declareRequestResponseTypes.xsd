@@ -1,0 +1,5 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://gbdulinfobybin_v2.egp.gbdul.tamur.kz" xmlns:ns1="http://smartbridge.b10.kz" targetNamespace="http://smartbridge.b10.kz" version="1.0">
+	<xs:import namespace="http://gbdulinfobybin_v2.egp.gbdul.tamur.kz" schemaLocation="GbdulInfoByBin_v2.xsd"/>
+	<xs:element name="sendMessageRequest" type="tns:Request"/>
+	<xs:element name="sendMessageResponse" type="tns:Response"/>
+</xs:schema>
